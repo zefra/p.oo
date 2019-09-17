@@ -36,37 +36,37 @@ namespace Pelicula
         {
             
            Pelicula p1 = new Pelicula();
-           p1.SetTitulo("code geass");
+           p1.SetTitulo("Code geass");
            p1.SetAño(2007); 
            Console.WriteLine("{0}({1})", p1.GetTitulo(), p1.GetAño());
            p1.imprime();
 
            Pelicula p2 = new Pelicula();
-           p2.SetTitulo("code geass 2 ");
+           p2.SetTitulo("Code geass 2 ");
            p2.SetAño(2008); 
            Console.WriteLine("{0}({1})", p2.GetTitulo(), p2.GetAño());
            p2.imprime();
 
            Pelicula p3 = new Pelicula();
-           p3.SetTitulo("el renacer de lelouch ");
+           p3.SetTitulo("El Renacer de lelouch ");
            p3.SetAño(2019); 
            Console.WriteLine("{0}({1})", p3.GetTitulo(), p3.GetAño());
            p3.imprime();
 
            Pelicula p4 = new Pelicula();
-           p4.SetTitulo("la sirenita ");
+           p4.SetTitulo("La Sirenita ");
            p4.SetAño(1277); 
            Console.WriteLaine("{0}({1})", p4.GetTitulo(), p4.GetAño());
            p4.imprime();l
 
            Pelicula p5 = new Pelicula();
-           p5.SetTitulo(" yugioh");
+           p5.SetTitulo(" Yugioh");
            p5.SetAño(2000); 
            Console.WriteLine("{0}({1})", p5.GetTitulo(), p5.GetAño());
            p5.imprime();
 
            Pelicula p6 = new Pelicula();
-           p6.SetTitulo("por que ella no me ama ");
+           p6.SetTitulo("Zefra ");
            p6.SetAño(2020); 
            Console.WriteLine("{0}({1})", p6.GetTitulo(), p6.GetAño());
            p6.imprime();
