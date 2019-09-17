@@ -1,0 +1,11 @@
+La página oficial de Visual Studio Code es https://code.visualstudio.com/. Desde la página principal se puede descargar la última versión estable (mediante el cuadro verde grande situado a la izquierda) o acceder a la página de descargas (mediante el cuadro verde más pequeño situado arriba a la derecha):
+Desde la página de descargas se pueden descargar las versiones para diferentes sistemas operativos (32 / 64 bits, Windows / GNU/Linux / Mac). En Windows hay además disponibles versiones System installer, que se instalan en la carpeta de Archivos de programa, y versiones User installer, que se instalan en la carpeta de usuario. Desde el verano de 2018, Microsoft recomienda la versión User installer.
+En cdlibre.org hay una sección dedicada a editores web, con información detallada sobre la última versión publicada para Windows de 64 bits.
+Haga doble clic sobre el instalador de Visual Studio Code para poner en marcha el asistente de instalación.
+La primera pantalla exige aceptar la licencia de Visual Studio Code para continuar la instalación:
+La segunda pantalla permite elegir el directorio de instalación (por tratarse de la versión User installer, el directorio de instalación está en la carpeta de usuario, no en Archivos de programa):
+La tercera pantalla permite elegir el nombre de la carpeta del menú de inicio:
+La cuarta pantalla permite elegir algunas tareas adicionales tras la instalación. Personalmente, aconsejo marcar las casillas "Agregar la acción
+Finalmente se muestran las opciones elegidas en las pantallas anteriores. Para iniciar la instalación, haga clic en Instalar
+A continuación, se instalará Visual Studio Code
+Una vez completada la instalación, se muestra la pantalla final. Si va a utilizar Git con Visual Studio Code, desmarque la casilla "Ejecutar Visual Studio Code", haga clic en Finalizar e instale Git.
