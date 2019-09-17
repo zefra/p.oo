@@ -40,17 +40,17 @@ namespace ListaPelicula
         {
             List<Persona> personas = new List<Persona>();
 
-             persona.Add(new Persona ("yugi"));
+             persona.Add(new Persona ("Yugi"));
 
-             persona.Add(new Persona ("kaiba"));
+             persona.Add(new Persona ("Kaiba"));
 
-             persona.Add(new Persona ("slifer"));
+             persona.Add(new Persona ("Slifer"));
 
-             persona.add(new persona ("lelouch"));
+             persona.add(new persona ("Lelouch"));
 
-             persona.add(new persona ("zefra"));
+             persona.add(new persona ("Zefra"));
 
-             persona.add(new persona ("obelisco"));
+             persona.add(new persona ("Obelisco"));
 
 
              persona.ForEach(print);
