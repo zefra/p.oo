@@ -8,8 +8,18 @@ namespace ListaPelicula
     {
       private string titulo;
       private int16 año;
+      private string marca;
       private string pais;
       private string director;
+      private string genero;
+        
+      public pelicula (string marca) {this.marca=ti;}
+      public void SetMarca(string m){marca = m;}
+      public string GetMarca(){return marca;} 
+        
+      public pelicula (string genero) {this.genero=ge;}
+      public void SetGenero(string g){genero = g;}
+      public string GetGenero(){return genero;} 
 
       public pelicula (string titulo) {this.titulo=ti;}
       public void SetTitulo(string t){titulo = t;}
@@ -29,7 +39,7 @@ namespace ListaPelicula
       public void imprime()
 
     {
-        Console.WriteLine("Informacion de la pelicula es: {0}", titulo, año, pais, director);
+        Console.WriteLine("Informacion de la pelicula es: {0}",genero,marca, titulo, año, pais, director);
     }
      public pelicula(){titulo = "n/a",año = "n/a", pais = "n/a",director = "n/a";}
     }
