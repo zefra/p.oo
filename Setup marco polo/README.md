@@ -17,7 +17,7 @@ Tarea:
 Como instalar visual code
 
 1-.En el buscador ir a la página https://code.visualstudio.com/
-
+https://github.com/zefra/p.oo/issues/2#issue-495584829
 2-.Desde la página principal se puede descargar la última versión, mediante el cuadro verde grande situado a la izquierda) o acceder a la página de descargas (mediante el cuadro verde más pequeño situado arriba a la derecha) 
 
 3-.Des pues saldrá una ventana con la opción de descargar en 64 bts o 32 bts donde hay eliges para cual lo descargaras Windows / GNU/Linux / Mac.
