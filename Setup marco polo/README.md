@@ -38,18 +38,26 @@ Como instalar visual code
 
 4-.cuando se elige cual es el sistema con el que se instalara el visual code lo siguiente que se hace es iniciar la instalación del instalador donde te saldrá una ventana a la cual le tienes que marcar el 1 circulito y 2 darle a siguiente 
 
-
+![6](https://user-images.githubusercontent.com/50537557/65217594-60aecb00-da69-11e9-8304-61d21ad23558.PNG)
 
 5-.La segunda pantalla permite elegir el directorio de instalación (por tratarse de la versión User installer, el directorio de instalación está en la carpeta de usuario, no en Archivos de programa
 
+![7](https://user-images.githubusercontent.com/50537557/65217641-7f14c680-da69-11e9-81b9-bb0bfa308855.PNG)
 
 6-.Aparese otra pantalla donde se marca siguiente 
 
+![8](https://user-images.githubusercontent.com/50537557/65217665-905dd300-da69-11e9-910e-a815c8096afe.PNG)
 
 7-.La cuarta pantalla permite elegir algunas tareas adicionales tras la instalación. Personalmente, aconsejo marcar las casillas
 
+![Captura](https://user-images.githubusercontent.com/50537557/65217682-9f448580-da69-11e9-890d-143688d5d5fd.PNG)
 
 8-.la siguiente ventana es para instalar luego de que carga la instalación se toca dónde sale finalizar
 
 
+![11](https://user-images.githubusercontent.com/50537557/65217703-af5c6500-da69-11e9-9f89-e8d5c2da35a6.PNG)
+
+
 9-. En el escritorio saldrá el icono de visual estudio code
+
+![12](https://user-images.githubusercontent.com/50537557/65217736-c56a2580-da69-11e9-86dd-a8b38b3228ee.PNG)
