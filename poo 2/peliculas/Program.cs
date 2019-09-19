@@ -5,7 +5,7 @@ namespace Pelicula
     {
        
       private string titulo;
-      private int estreno;
+      private int16 estreno;
       private string pais;
       private string director;
       private string genero;
