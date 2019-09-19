@@ -59,5 +59,3 @@ Como instalar visual code
 
 
 9-. En el escritorio saldrá el icono de visual estudio code
-
-![12](https://user-images.githubusercontent.com/50537557/65217736-c56a2580-da69-11e9-86dd-a8b38b3228ee.PNG)
