@@ -1,4 +1,4 @@
-using System
+olutitusing Syste
 namespace Pelicula
 {
    public class pelicula 
@@ -10,30 +10,38 @@ namespace Pelicula
       private string pais;
       private string director;
       private string genero;
-        
-      public pelicula (string marca) {this.marca=ca;}
-      public void SetMarca(string c){marca = c;}
-      public string GetMarca(){return marca;}
-        
-      public pelicula (string genero) {this.genero=ge;}
-      public void SetGenero(string g){titulo = g;}
-      public string GetGenero(){return genero;}
-        
-      public pelicula (int16 años) {this.años=añ;}
-      public void SetAño(int16 a){años = a;}
-      public int16 GetAños(){return años;}
+       
+      public string Marca
+      {
+         get{ return marca;}
+         set{ marca = value;}
+      }
+      public string Titulo
+      {
+         get{ return titulo;}
+         set{ titulo = value;}
+      }
+      public string Pais
+      {
+         get{ return pais;}
+         set{ pais = value;}
+      }
+      public string Director
+      {
+         get{ return director;}
+         set{ director = value;}
+      }
+      public string Genero
+      {
+         get{ return genero;}
+         set{ genero = value;}
+      }
+      public int16 Años
+      {
+         get{ return años;}
+         set{ años = value;}
+      }
 
-      public pelicula (string titulo) {this.titulo=ti;}
-      public void SetTitulo(string t){titulo = t;}
-      public string GetTitulo(){return titulo;}
-
-      public pelicula (string pais) {this.pais=pa;}
-      public void SetTitulo(string p){titulo = p;}
-      public string GetTitulo(){return pais;}
-
-      public pelicula (string director) {this.director=di;}
-      public void SetTitulo(string d){titulo = d;}
-      public string GetTitulo(){return director;}
       public void imprime()
 
     {
