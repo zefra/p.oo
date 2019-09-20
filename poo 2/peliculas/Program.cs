@@ -5,7 +5,7 @@ namespace Pelicula
     {
        
       private string titulo;
-      private int16 estreno;
+      private int16 años;
       private string pais;
       private string director;
       private string genero;
@@ -19,9 +19,9 @@ namespace Pelicula
       public void SetGenero(string g){titulo = g;}
       public string GetGenero(){return genero;}
         
-      public pelicula (int estreno) {this.estreno=es;}
-      public void SetAño(string e){estreno = e;}
-      public string GetEstreno(){return estreno;}
+      public pelicula (int16 años) {this.años=añ;}
+      public void SetAño(string a){años = a;}
+      public string GetAños(){return años;}
 
       public pelicula (string titulo) {this.titulo=ti;}
       public void SetTitulo(string t){titulo = t;}
@@ -37,9 +37,9 @@ namespace Pelicula
       public void imprime()
 
     {
-        Console.WriteLine("Informacion de la pelicula es: {0}", titulo, estreno, pais, director,genero,marca);
+        Console.WriteLine("Informacion de la pelicula es: {0}", titulo, años, pais, director,genero,marca);
     }
-     public pelicula(){titulo = "n/a",estreno = "n/a", pais = "n/a",director = "n/a";}
+     public pelicula(){titulo = "n/a",años = "n/a", pais = "n/a",director = "n/a";}
     }
     class Program
     {
