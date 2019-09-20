@@ -1,15 +1,15 @@
-﻿using System;
+using System
 namespace Pelicula
 {
-    class pelicula 
+   public class pelicula 
     {
-       
+        
+      private string marca;
       private string titulo;
       private int16 años;
       private string pais;
       private string director;
       private string genero;
-      private string marca;
         
       public pelicula (string marca) {this.marca=ca;}
       public void SetMarca(string c){marca = c;}
@@ -20,8 +20,8 @@ namespace Pelicula
       public string GetGenero(){return genero;}
         
       public pelicula (int16 años) {this.años=añ;}
-      public void SetAño(string a){años = a;}
-      public string GetAños(){return años;}
+      public void SetAño(int16 a){años = a;}
+      public int16 GetAños(){return años;}
 
       public pelicula (string titulo) {this.titulo=ti;}
       public void SetTitulo(string t){titulo = t;}
@@ -48,32 +48,32 @@ namespace Pelicula
             
            Pelicula p1 = new Pelicula();
            p1.SetTitulo("Code geass");
-           p1.SetEstreno(2007); 
+           p1.SetAños(2007); 
            Console.WriteLine("{0}({1})", p1.GetTitulo(), p1.GetEstreno());
 
            Pelicula p2 = new Pelicula();
            p2.SetTitulo("Code geass 2 ");
-           p2.SetEstreno(2008); 
+           p2.SetAños(2008); 
            Console.WriteLine("{0}({1})", p2.GetTitulo(), p2.GetEstreno());
 
            Pelicula p3 = new Pelicula();
            p3.SetTitulo("El Renacer de lelouch ");
-           p3.SetEstreno(2019); 
+           p3.SetAños(2019); 
            Console.WriteLine("{0}({1})", p3.GetTitulo(), p3.GetEstreno());
 
            Pelicula p4 = new Pelicula();
            p4.SetTitulo("La Sirenita ");
-           p4.SetEstreno(1277); 
+           p4.SetAños(1277); 
            Console.WriteLaine("{0}({1})", p4.GetTitulo(), p4.GetEstreno());
 
            Pelicula p5 = new Pelicula();
            p5.SetTitulo(" Yugioh");
-           p5.SetEstreno(2000); 
+           p5.SetAños(2000); 
            Console.WriteLine("{0}({1})", p5.GetTitulo(), p5.GetEstreno());
 
            Pelicula p6 = new Pelicula();
            p6.SetTitulo("Zefra ");
-           p6.SetEstreno(2020); 
+           p6.SetAños(2020); 
            Console.WriteLine("{0}({1})", p6.GetTitulo(), p6.GetEstreno());
             //Esto es para poder imprimir los datos de las peliculas con sus fechas
            p1.imprime();
