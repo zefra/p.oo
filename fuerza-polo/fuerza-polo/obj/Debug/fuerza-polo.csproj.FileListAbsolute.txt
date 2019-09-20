@@ -1,0 +1,10 @@
+c:\users\dell\source\repos\fuerza-polo\fuerza-polo\obj\Debug\fuerza-polo.csprojResolveAssemblyReference.cache
+c:\users\dell\source\repos\fuerza-polo\fuerza-polo\obj\Debug\fuerza_polo.Form1.resources
+c:\users\dell\source\repos\fuerza-polo\fuerza-polo\obj\Debug\fuerza_polo.Properties.Resources.resources
+c:\users\dell\source\repos\fuerza-polo\fuerza-polo\obj\Debug\fuerza-polo.csproj.GenerateResource.cache
+c:\users\dell\source\repos\fuerza-polo\fuerza-polo\obj\Debug\fuerza-polo.csproj.CoreCompileInputs.cache
+c:\users\dell\source\repos\fuerza-polo\fuerza-polo\bin\Debug\fuerza-polo.exe.config
+c:\users\dell\source\repos\fuerza-polo\fuerza-polo\bin\Debug\fuerza-polo.exe
+c:\users\dell\source\repos\fuerza-polo\fuerza-polo\bin\Debug\fuerza-polo.pdb
+c:\users\dell\source\repos\fuerza-polo\fuerza-polo\obj\Debug\fuerza-polo.exe
+c:\users\dell\source\repos\fuerza-polo\fuerza-polo\obj\Debug\fuerza-polo.pdb
