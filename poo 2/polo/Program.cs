@@ -13,29 +13,36 @@ namespace ListaPelicula
       private string director;
       private string genero;
         
-      public pelicula (string marca) {this.marca=ti;}
-      public void SetMarca(string m){marca = m;}
-      public string GetMarca(){return marca;} 
-        
-      public pelicula (string genero) {this.genero=ge;}
-      public void SetGenero(string g){genero = g;}
-      public string GetGenero(){return genero;} 
-
-      public pelicula (string titulo) {this.titulo=ti;}
-      public void SetTitulo(string t){titulo = t;}
-      public string GetTitulo(){return titulo;}
-
-      public pelicula (int16 año) {this.año=an;}
-      public void SetAño(string a){año = a;}
-      public string GetAño(){return año;}
-
-      public pelicula (string pais) {this.pais=pa;}
-      public void SetTitulo(string p){titulo = p;}
-      public string GetTitulo(){return pais;}
-
-      public pelicula (string director) {this.director=di;}
-      public void SetTitulo(string d){titulo = d;}
-      public string GetTitulo(){return director;}
+      public string Marca
+      {
+         get{ return marca;}
+         set{ marca = value;}
+      }
+      public string Titulo
+      {
+         get{ return titulo;}
+         set{ titulo = value;}
+      }
+      public string Pais
+      {
+         get{ return pais;}
+         set{ pais = value;}
+      }
+      public string Director
+      {
+         get{ return director;}
+         set{ director = value;}
+      }
+      public string Genero
+      {
+         get{ return genero;}
+         set{ genero = value;}
+      }
+      public int16 Años
+      {
+         get{ return años;}
+         set{ años = value;}
+      }
       public void imprime()
 
     {
