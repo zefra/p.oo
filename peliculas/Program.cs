@@ -3,7 +3,8 @@ namespace Pelicula
 {
    public class pelicula 
     {
-        
+       
+      private string actor;
       private string marca;
       private string titulo;
       private int16 años;
@@ -11,6 +12,11 @@ namespace Pelicula
       private string director;
       private string genero;
        
+      public string Actor
+      {
+         get{return actor;}
+         set{actor = value;}
+      }
       public string Marca
       {
          get{ return marca;}
