@@ -9,22 +9,6 @@
 * .userosscache
 * .sln.docstates
 
-# Archivos específicos del usuario (MonoDevelop / Xamarin Studio)
-* .userprefs
-
-# Resultados de construcción
-[ Dd ] ebug /
-[ Dd ] ebugPublic /
-[ Rr ] elease /
-[ Rr ] elimina /
-x64 /
-x86 /
-bld /
-[ Bb ] en /
-[ Oo ] bj /
-l ] og 
-
-
 # NUNIT
 * .VisualState.xml
 TestResult.xml
@@ -93,6 +77,23 @@ ipch /
 * .vsp
 * .vspx
 * .sap
+# Archivos específicos del usuario (MonoDevelop / Xamarin Studio)
+* .userprefs
+
+# Resultados de construcción
+[ Dd ] ebug /
+[ Dd ] ebugPublic /
+[ Rr ] elease /
+[ Rr ] elimina /
+x64 /
+x86 /
+bld /
+[ Bb ] en /
+[ Oo ] bj /
+l ] og 
+
+
+
 
 # ReSharper es un complemento de codificación .NET
 _ReSharper * /
