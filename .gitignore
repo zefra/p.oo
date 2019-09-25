@@ -22,19 +22,8 @@ x86 /
 bld /
 [ Bb ] en /
 [ Oo ] bj /
-[ Ll ] og /
+l ] og 
 
-# Visual Studio 2015/2017 directorio de caché / opciones
-.vs /
-# Descomente si tiene tareas que crean los archivos estáticos del proyecto en wwwroot
-# wwwroot /
-
-# Visual Studio 2017 archivos generados automáticamente
-Generado \ Archivos /
-
-# Resultados de la prueba MSTest
-[ Tt ] est [ Rr ] esult * /
-[ Bb ] uild [ Ll ] og. * *
 
 # NUNIT
 * .VisualState.xml
@@ -104,15 +93,6 @@ ipch /
 * .vsp
 * .vspx
 * .sap
-
-# Visual Studio Trace Files
-* .e2e
-
-# TFS 2012 Espacio de trabajo local
-$ tf /
-
-# Kit de herramientas de automatización de orientación
-* .gpState
 
 # ReSharper es un complemento de codificación .NET
 _ReSharper * /
@@ -290,20 +270,6 @@ paket-files /
 # JetBrains Rider
 .idea /
 * .sln.iml
-
-# CodeRush
-.cr /
-
-# Herramientas de Python para Visual Studio (PTVS)
-__pycache__ /
-* .pyc
-
-# Cake: descomenta si lo estás usando
-# herramientas / **
-# ! tools / packages.config
-
-# Tabs Studio
-* .tss
 
 # Archivo de configuración JustMock de Telerik
 * .jmconfig
