@@ -1,8 +1,6 @@
 # # Ignorar archivos temporales de Visual Studio, resultados de compilación y
 # # archivos generados por complementos populares de Visual Studio.
-# #
-# # Obtenga lo último de https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
-
+# # Obtenga lo último de https://github.com/github/gitignore/blob/master/VisualStudio.gitignor
 # Archivos específicos del usuario
 * .suo
 * .user
@@ -20,7 +18,26 @@ dlldata.c
 
 # Resultados de referencia
 BenchmarkDotNet.Artifacts /
+# DocProject es un complemento generador de documentación
+DocProject / buildhelp /
+DocProject / Help / * .HxT
+DocProject / Ayuda / * .HxC
+DocProject / Help / * .hhc
+DocProject / Help / * .hhk
+DocProject / Help / * .hhp
+DocProject / Ayuda / Html2
+DocProject / Help / html
 
+# Directorio Click-Once
+publicar /
+
+# Publicar salida web
+* . [ Pp ] ublish.xml
+* .azurePubxml
+# Nota: Comente la siguiente línea si desea registrar la configuración de implementación web,
+# pero las cadenas de conexión de la base de datos (con posibles contraseñas) no se cifrarán
+* .pubxml
+* .publishproj
 # .NET Core
 project.lock.json
 project.fragment.lock.json
@@ -92,9 +109,6 @@ bld /
 [ Oo ] bj /
 l ] og 
 
-
-
-
 # ReSharper es un complemento de codificación .NET
 _ReSharper * /
 * . [ Rr ] e [ Ss ] harper
@@ -131,16 +145,6 @@ AutoTest.Net /
 
 # Carpeta de salida de Installshield
 [ Ee ] xpress /
-
-# DocProject es un complemento generador de documentación
-DocProject / buildhelp /
-DocProject / Help / * .HxT
-DocProject / Ayuda / * .HxC
-DocProject / Help / * .hhc
-DocProject / Help / * .hhk
-DocProject / Help / * .hhp
-DocProject / Ayuda / Html2
-DocProject / Help / html
 
 # Directorio Click-Once
 publicar /
