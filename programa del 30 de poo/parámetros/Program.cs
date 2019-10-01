@@ -83,3 +83,21 @@ namespace clientes
 
 
             Console.WriteLine(r2);
+            Console.WriteLine(r);
+
+         Persona p = new Persona();
+         Console.WriteLine(p.nombre);
+         Anonymous.anonimiza( p);
+         Anonymous.cambia(ref p);
+         Persona p1 = new Persona ();
+         Console.WriteLine(p.apellido);
+         Anonymous.anonimiza( p);
+         Anonymous.cambia(ref p);
+         Persona p2 = new Persona ();
+         Console.WriteLine(p.puesto);
+         Anonymous.anonimiza( p);
+         Anonymous.cambia(ref p);
+        }
+    }
+}
+
