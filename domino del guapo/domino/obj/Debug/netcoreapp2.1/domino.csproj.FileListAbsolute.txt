@@ -1,0 +1,4 @@
+e:\domino del guapo\domino\obj\Debug\netcoreapp2.1\domino.csprojAssemblyReference.cache
+e:\domino del guapo\domino\obj\Debug\netcoreapp2.1\domino.csproj.CoreCompileInputs.cache
+e:\domino del guapo\domino\obj\Debug\netcoreapp2.1\domino.AssemblyInfoInputs.cache
+e:\domino del guapo\domino\obj\Debug\netcoreapp2.1\domino.AssemblyInfo.cs
