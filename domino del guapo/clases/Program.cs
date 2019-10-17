@@ -6,35 +6,36 @@ namespace clases
 {
     class Duracion
     {
-        private int horas;
-        private int minutos;
-        private int segundos;
+        private int Horas;
+        private int Minutos;
+        private int Segundos;
 
+        public void SetHoras(int Horas)
+        {
+            this.Horas = Horas;
+        } 
+        public int GetHoras()
+        {
+            return this.Horas;
+        }
+
+        public Duracion(int Horas, int Minutos, int Segundos)
+    {
+        this.Horas = Horas;
+        this.Minutos = Minutos;
+        this.Segundos = Segundos;
     }
-    public pelicula()
-
+    
+    public void imprime()
+    {
+        Console.WriteLine("Horas: {0}\nMinutos: {1}\nSegundos: {2}\n", this.Horas, this.Minutos, this.Segundos);
+    }
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            static void multiplicacion(int horas, int minutos, int segundos out resultado){
-		resultado = horas + minutos + segundos;
-	}
-
-	static int multiplicacion(int horas, int minutos , int segundos)
-    {
-		return horas * minutos = segundos;
-	}
-
-	static void Main()
-	{
-		int x = 3;
-		int y = 6;
-		int r; 
-
-		multiplicacion(x, y, out r);
-		Console.WriteLine(r);
-
-		Console.WriteLine(multiplicacion(x,y)); 
+            Duracion Pelicula = new Duracion(2,30,0);
+            D.imprime();
     }
 }
