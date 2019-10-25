@@ -12,6 +12,6 @@ Duración :https://github.com/zefra/p.oo/blob/master/domino%20del%20guapo/clases
 
 # unidad 3 #
 
-musico:
+musico:https://github.com/zefra/p.oo/blob/master/musica/musica/Program.cs
 
 alumno:
