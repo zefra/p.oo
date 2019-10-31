@@ -12,10 +12,12 @@ Duración :https://github.com/zefra/p.oo/blob/master/domino%20del%20guapo/clases
 
 # unidad 3 #
 
-musico:https://github.com/zefra/p.oo/tree/master/Figura/musico  tarea del 24/10/2019
+Musico:https://github.com/zefra/p.oo/tree/master/Figura/musico  tarea del 24/10/2019
 
-alumno:https://github.com/zefra/p.oo/blob/master/Alumno/Alumno/Program.cs
+Alumno:https://github.com/zefra/p.oo/blob/master/Alumno/Alumno/Program.cs
 
-figura:https://github.com/zefra/p.oo/blob/master/musica/musica/Program.cs
+Figura:https://github.com/zefra/p.oo/blob/master/musica/musica/Program.cs
 
 # unidad 4 #
+
+Aplicacion de face:https://github.com/zefra/p.oo/blob/master/publicacion/trabajos/Program.cs
