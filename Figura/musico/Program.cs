@@ -33,13 +33,15 @@ namespace musico
                 Console.WriteLine("{0} Afinando su {1}",Nombre,Bajo);
             }
         }
-        class Guitarrista:Musico{
+        class Guitarrista:Musico
+        {
             private string Guitarra;
             public Guitarrista(string no, string G):base(no)
             {
                 this.Guitarra=G;
             }
-         public override void Afinar(){
+         public override void Afinar()
+         {
                 Console.WriteLine("{0} Afinando su {1}",Nombre,Guitarra);
         } 
         class Baterista:Musico{
@@ -48,7 +50,8 @@ namespace musico
             {
                 this.Bateria=V;
             }
-         public override void Afinar(){
+         public override void Afinar()
+         {
                 Console.WriteLine("{0} Afinando su {1}",Nombre,Bateria);
         } 
     }
@@ -65,7 +68,8 @@ namespace musico
             grupo.Add(fe);
             grupo.Add(mo);
             grupo.Add(li);
-            foreach(Musico m in grupo){
+            foreach(Musico m in grupo)
+            {
                 m.Saludar();
                 m.Afinar();
                 Console.WriteLine(" ");
