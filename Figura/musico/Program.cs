@@ -6,6 +6,8 @@ namespace musico
         {
         protected string Nombre;
         public Musico(string N)
+        
+           public string Nombre
         {
             get{return nombre;}
             set{nombre = value;}
