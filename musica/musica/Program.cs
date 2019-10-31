@@ -8,17 +8,32 @@ namespace musica
         protected int x;
         protected int y;
         protected string color;
-
-        public Figura(int x, int y, string c){
+    
+    public int x
+    {
+        get{return x;}
+        set{x = value;}
+    } 
+        public int y
+    {
+        get{return y;}
+        set{y = value;}
+    } 
+        public string color
+    {
+        get{return color;}
+        set{color = value;}
+    } 
+      public Figura(int x, int y, string c){
             this.x = x; this.y = y; color = c;
-        }
+     
+    }
 
         public void dibuja()
         {
             Console.WriteLine("Se dibuja una figura color {0}", 
             color);
         }
-
         public void printColor() {
             Console.WriteLine(color);
         }
