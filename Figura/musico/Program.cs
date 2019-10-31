@@ -7,7 +7,8 @@ namespace musico
         protected string Nombre;
         public Musico(string N)
         {
-            Nombre = N;
+            get{return nombre;}
+            set{nombre = value;}
         }
 
         public virtual void Saludar()
