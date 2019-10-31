@@ -10,19 +10,23 @@ namespace musico
             Nombre = N;
         }
 
-        public virtual void Saludar(){
+        public virtual void Saludar()
+        {
             Console.WriteLine("Hola, soy {0}",Nombre);
         }
-        public virtual void Afinar(){
+        public virtual void Afinar()
+        {
             Console.WriteLine("{0},Afinando su instrumento {0}",Nombre);
         }
-        class Bajista:Musico{
+        class Bajista:Musico
+        {
             private string Bajo;
             public Bajista(string no,string B):base(no)
             {
                 this.Bajo=B;
             }
-            public override void Afinar(){
+            public override void Afinar()
+            {
                 Console.WriteLine("{0} Afinando su {1}",Nombre,Bajo);
             }
         }
@@ -50,14 +54,14 @@ namespace musico
         static void Main(string[] args)
         {
             Musico Tomas=new Musico("Tomas");
-            Bajista flea=new Bajista("Flea","Bateria");
-            Guitarrista JSenoue=new Guitarrista("JSenoue","Guitarra");
-            Baterista IDK =new Baterista("IDK","Bateria");
+            Bajista fe=new Bajista("Fe","Bateria");
+            Guitarrista mo=new Guitarrista("Mo","Guitarra");
+            Baterista li =new Baterista("Li","Bateria");
             List <Musico> grupo = new List <Musico>();
             grupo.Add(Tomas);
-            grupo.Add(flea);
-            grupo.Add(JSenoue);
-            grupo.Add(IDK);
+            grupo.Add(fe);
+            grupo.Add(mo);
+            grupo.Add(li);
             foreach(Musico m in grupo){
                 m.Saludar();
                 m.Afinar();
