@@ -14,7 +14,7 @@ Duración :https://github.com/zefra/p.oo/blob/master/domino%20del%20guapo/clases
 
 musico:https://github.com/zefra/p.oo/tree/master/Figura/musico  tarea del 24/10/2019
 
-alumno
+alumno:https://github.com/zefra/p.oo/blob/master/Alumno/Alumno/Program.cs
 
 figura:https://github.com/zefra/p.oo/blob/master/musica/musica/Program.cs
 
