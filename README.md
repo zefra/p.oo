@@ -26,4 +26,5 @@ Aplicacion de face:https://github.com/zefra/p.oo/blob/master/publicacion/trabajo
 
 clase:https://github.com/zefra/p.oo/tree/master/trabajo%20en%20clase/error
 
-tarea de martes 19/11/19:
+tarea de martes 19/11/19:https://github.com/zefra/p.oo/blob/master/Stack/Stack/Program.cs
+
