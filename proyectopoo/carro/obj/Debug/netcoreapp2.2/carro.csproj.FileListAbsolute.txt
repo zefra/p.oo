@@ -1,0 +1,11 @@
+C:\Users\hp\Documents\4toNivelSemestre\proyectopoo\carro\bin\Debug\netcoreapp2.2\carro.deps.json
+C:\Users\hp\Documents\4toNivelSemestre\proyectopoo\carro\bin\Debug\netcoreapp2.2\carro.runtimeconfig.json
+C:\Users\hp\Documents\4toNivelSemestre\proyectopoo\carro\bin\Debug\netcoreapp2.2\carro.runtimeconfig.dev.json
+C:\Users\hp\Documents\4toNivelSemestre\proyectopoo\carro\bin\Debug\netcoreapp2.2\carro.dll
+C:\Users\hp\Documents\4toNivelSemestre\proyectopoo\carro\bin\Debug\netcoreapp2.2\carro.pdb
+C:\Users\hp\Documents\4toNivelSemestre\proyectopoo\carro\obj\Debug\netcoreapp2.2\carro.csprojAssemblyReference.cache
+C:\Users\hp\Documents\4toNivelSemestre\proyectopoo\carro\obj\Debug\netcoreapp2.2\carro.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\4toNivelSemestre\proyectopoo\carro\obj\Debug\netcoreapp2.2\carro.AssemblyInfoInputs.cache
+C:\Users\hp\Documents\4toNivelSemestre\proyectopoo\carro\obj\Debug\netcoreapp2.2\carro.AssemblyInfo.cs
+C:\Users\hp\Documents\4toNivelSemestre\proyectopoo\carro\obj\Debug\netcoreapp2.2\carro.dll
+C:\Users\hp\Documents\4toNivelSemestre\proyectopoo\carro\obj\Debug\netcoreapp2.2\carro.pdb
