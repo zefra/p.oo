@@ -28,3 +28,5 @@ clase:https://github.com/zefra/p.oo/tree/master/trabajo%20en%20clase/error
 
 tarea de martes 19/11/19:https://github.com/zefra/p.oo/blob/master/Stack/Stack/Program.cs
 
+
+proyecto:https://github.com/zefra/p.oo/blob/master/proyectopoo/carro/Program.cs
